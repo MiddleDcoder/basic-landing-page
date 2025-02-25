@@ -3,7 +3,7 @@
     --primary-color: #1f2937;
     --secondary-color: #F9FAF8;
     --tertiary: #E5E7E5;
-    --blue-element: #3882F6;
+    --accent-element: #3882F6;
 }
 html, body {
     max-width: 100%;
@@ -53,7 +53,7 @@ h1 {
     color: var(--tertiary);
 }
 button {
-    background-color: var(--blue-element);
+    background-color: var(--accent-element);
     color: var(--secondary-color);
     font-size: 18px;
     padding: 8px 32px;
@@ -69,10 +69,11 @@ button {
     flex-wrap: wrap;
 }
 .hero-text {
-    flex-basis: 480px;
+    flex-basis: 400px;
 }
 .hero-img {
-    padding: 40px;
+    padding: 5%;
+    width: 30vw;
 }
 
 /* Information Section */
@@ -107,7 +108,7 @@ h2 {
     max-width: 250px;
 }
 .info-box img {
-    border: 3px solid var(--blue-element);
+    border: 3px solid var(--accent-element);
     padding: 16px;
     border-radius: 10px;
     width: 100%;
@@ -137,7 +138,7 @@ blockquote .credit {
 
 /* Call To Action Section */
 .cta {
-    background-color: var(--blue-element);
+    background-color: var(--accent-element);
     padding: 60px 5%;
     margin: 100px 15%;
     border-radius: 10px;
@@ -170,11 +171,11 @@ footer {
 
 /* Addition Styles */
 a:hover {
-    color: var(--blue-element);
+    color: var(--accent-element);
 }
 button:hover {
     background-color: var(--secondary-color);
-    color: var(--blue-element);
+    color: var(--accent-element);
 }
 .info-box {
     transition: margin 0.2s ease-in-out;
