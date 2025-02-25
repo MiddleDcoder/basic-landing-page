@@ -5,6 +5,10 @@
     --tertiary: #E5E7E5;
     --blue-element: #3882F6;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
     margin: 0;
     padding: 0;
@@ -75,20 +79,26 @@ button {
     gap: 32px;
     padding: 0 20%;
 }
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 900;
+} 
 .info-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 30px;
 }
 .info-box {
-    width: 15%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 16px;
 }
 .info-box img {
     border: 3px solid var(--blue-element);
@@ -96,4 +106,25 @@ button {
     border-radius: 10px;
     width: 100%;
     height: 162px;
+}
+
+/*Testimonial Section*/
+.testimonial {
+    background-color: var(--tertiary);
+    margin-top: 80px;
+    padding: 100px 20%;
+}
+blockquote {
+    width: 80%;
+    margin: 0 auto;
+}
+blockquote .quote {
+    font-size: 36px;
+    color: var(--primary-color);
+    font-style: italic;
+}
+blockquote .credit {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
 }
