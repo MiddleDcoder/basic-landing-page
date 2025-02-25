@@ -14,14 +14,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, serif;
+
 }
 
 /* Header and Hero Section */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 32px 4%;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 header, .hero {
     background-color: var(--primary-color);
@@ -39,7 +42,6 @@ nav a {
     color: var(--tertiary);
     text-decoration: none;
 }
-
 h1 {
     font-size: 48px;
     color: var(--secondary-color);
@@ -60,9 +62,9 @@ button {
 }
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 80px 20%;
+    padding: 80px 4%;
     gap: 32px;
     flex-wrap: wrap;
 }
@@ -78,28 +80,28 @@ button {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding: 0 20%;
+    padding: 0 4%;
 }
 h2 {
     text-align: center;
     font-size: 36px;
-    font-family: 900;
+    font-weight: 900;
 } 
 .info-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 16px;
 }
 .info-box {
-    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 16px;
+    margin: 0 32px;
+    max-width: 250px;
 }
 .info-box img {
     border: 3px solid var(--blue-element);
@@ -113,7 +115,7 @@ h2 {
 .testimonial {
     background-color: var(--tertiary);
     margin-top: 80px;
-    padding: 100px 20%;
+    padding: 100px 8%;
 }
 blockquote {
     width: 80%;
@@ -163,3 +165,17 @@ footer {
     text-align: center;
 }
 
+/* Addition Styles */
+a:hover {
+    color: var(--blue-element);
+}
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--blue-element);
+}
+.info-box {
+    transition: margin 0.2s ease-in-out;
+}
+.info-box:hover {
+    margin-top: -20px;
+}
