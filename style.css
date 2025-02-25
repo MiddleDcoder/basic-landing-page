@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary-color: #1f2937;
+    --secondary-color: #F9FAF8;
+    --tertiary: #E5E7E5;
+    --blue-element: #3882F6;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, serif;
+}
+/* Header and Hero Section*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+header, .hero {
+    background-color: var(--primary-color);
+}
+header .logo {
+    font-size: 24px;
+    color: var(--secondary-color);
+    font-weight: 900;
+}
+nav {
+    display: flex;
+    gap: 32px;
+}
+nav a {
+    color: var(--tertiary);
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--secondary-color);
+    font-weight: 900;
+    margin: 0;
+}
+.hero-text p {     
+    font-size: 18px;
+    color: var(--tertiary);
+}
+button {
+    background-color: var(--blue-element);
+    color: var(--secondary-color);
+    font-size: 18px;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 10px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 20%;
+    gap: 32px;
+}
+.hero-text {
+    flex-basis: 400px;
+}
