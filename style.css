@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
     font-family: Roboto, serif;
 }
+
 /* Header and Hero Section*/
 header {
     display: flex;
@@ -58,7 +59,41 @@ button {
     align-items: center;
     padding: 80px 20%;
     gap: 32px;
+    flex-wrap: wrap;
 }
 .hero-text {
     flex-basis: 400px;
+}
+
+/* Information Section*/
+.information {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 0 20%;
+}
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.info-box {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info-box img {
+    border: 3px solid var(--blue-element);
+    padding: 16px;
+    border-radius: 10px;
+    width: 100%;
+    height: 162px;
 }
