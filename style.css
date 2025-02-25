@@ -16,7 +16,7 @@ body {
     font-family: Roboto, serif;
 }
 
-/* Header and Hero Section*/
+/* Header and Hero Section */
 header {
     display: flex;
     justify-content: space-around;
@@ -37,6 +37,7 @@ nav {
 }
 nav a {
     color: var(--tertiary);
+    text-decoration: none;
 }
 
 h1 {
@@ -69,7 +70,7 @@ button {
     flex-basis: 400px;
 }
 
-/* Information Section*/
+/* Information Section */
 .information {
     margin-top: 40px;
     display: flex;
@@ -108,7 +109,7 @@ h2 {
     height: 162px;
 }
 
-/*Testimonial Section*/
+/* Testimonial Section */
 .testimonial {
     background-color: var(--tertiary);
     margin-top: 80px;
@@ -128,3 +129,37 @@ blockquote .credit {
     font-weight: bold;
     text-align: right;
 }
+
+/* Call To Action Section */
+.cta {
+    background-color: var(--blue-element);
+    padding: 60px 5%;
+    margin: 100px 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h3 {
+    color: var(--secondary-color);
+    font-size: 28px;
+    margin: 0;
+}
+.cta-text p {
+    font-size: 16px;
+    color: var(--tertiary);
+    margin: 0;
+}
+.cta-btn button {
+    border: 2px solid var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 32px;
+    text-align: center;
+}
+
