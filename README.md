@@ -7,7 +7,7 @@ This is a simple, basic landing page designed for showcasing a product, service,
 This can be use as well as wireframe boilerplate for simple projects.
 
 ### Updates
-- This website is perfectly Responsive without using any media query.
+- This website is perfectly Responsive without using any media query and just simple html & css without relying on advance code.
 
 > [!IMPORTANT]
 > This Project is associated with (TOP) The Odin Project.
