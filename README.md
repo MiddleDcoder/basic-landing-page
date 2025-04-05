@@ -1,4 +1,4 @@
-# Project: Landing Page
+# [Project: Landing Page](https://middledcoder.github.io/basic-landing-page/)
 
 ## Overview
 This is a simple, basic landing page designed for showcasing a product, service, or personal portfolio. It features a clean UI, modern styling, and optimized performance. 
