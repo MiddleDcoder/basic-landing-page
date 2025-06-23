@@ -11,3 +11,6 @@ This can be use as well as wireframe boilerplate for simple projects.
 
 > [!IMPORTANT]
 > This Project is associated with (TOP) The Odin Project.
+
+## Screenshot:
+![Basic Landing Page](https://github.com/MiddleDcoder/basic-landing-page/blob/main/images/basic-landing-page_.png)
